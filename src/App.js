@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import Row from "./Row";
-import requests from "./requests";
-import Banner from "./Banner";
-import Nav from "./Nav";
-import Footer from "./Footer";
+import Row from "./components/rows/Row";
+import requests from "./components/config/requests";
+import Banner from "./components/banner/Banner";
+import Nav from "./components/header/Nav";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
